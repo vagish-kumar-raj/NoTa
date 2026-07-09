@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NoTa</title>
+    <title>Nota</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 align="center">NoTa</h1>
-    <p align="center">A modern note-taking web app.</p>
-    <hr>
-    <h2 align="center">Features</h2>
-    <ul>
-        <li>Write and save notes</li>
-        <li>Organize notes with tags</li>
-        <li>Search through your notes</li>
-        <li>Responsive design for all devices</li>
-    </ul>
-    <hr>
-    <p align="center">Made with ❤️ by VKR</p>
+    <h1>Nota</h1>
+    <div>
+        <label for="user-notes">Your Notes:</label><br>
+        <textarea 
+            id="user-notes" 
+            name="userNotes" 
+            rows="10" 
+            cols="50" 
+            placeholder="Start typing your notes here..."
+            maxlength="2000">
+        </textarea>
+    </div>
+    <button id="saveButton">Save Note</button>
 </body>
 </html>
