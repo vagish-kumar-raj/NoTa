@@ -1,10 +1,19 @@
 body{
     background-color: #f1e6d0;
     text-align: center;
+    color: #835905;
+    margin: 20px;
 }
 
 h1{
     color: #835905;
+    font-family: 'Rubik Maze', system-ui;
+    border: #835905 solid 1px;
+    border-bottom: 5px solid #835905;
+    padding: 10px;
+    inline-size: fit-content;
+    margin: 20px auto;
+    border-radius: 10px;
 }
 
 p{
@@ -13,8 +22,39 @@ p{
 
 hr{
     border: 1px solid #835905;
+    margin: 20px auto;
 }
 
 h2{
     color: #835905;
+}
+
+a{
+    color: #835905;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+button{
+    background-color: #835905;
+    color: #f1e6d0;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+textarea{
+    width: 80%;
+    height: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #835905;
+    border-radius: 5px;
+    resize: none;
+    margin: 20px;
 }
